@@ -360,7 +360,7 @@ hr{
   z-index: 1;
   &:hover{
     /* short-cut method for hover */
-  background-color: black;
+  background-color: #f67c92;
   }
 }
 
@@ -369,6 +369,10 @@ hr{
     width: 20px;
     margin: 0 auto 20px;
     cursor: pointer;
+    transition: width 2s, height 2s, transform 2s;
+    transform: rotate(180deg);
+
+
     /* cursor:grab;
     cursor:move;
     cursor: progress; */
